@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Falcon's Hollow</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <img src="img/FalconsHollow.png" usemap="#falcons-hollow" style="width:70%;height:auto;vertical-align:text-top;position:relative;top:-22px;float:left;margin-right:4px;">
+  <map name="falcons-hollow">
+    <area alt="01 - The Cutyard" title="01 - The Cutyard" href="javascript:getPlace('TheCutyard');" coords="542,978,607,993,596,1040,740,1085,706,1184,500,1124" shape="poly">
+    <area alt="02 - Lumber Warehouse" title="02 - Lumber Warehouse" href="javascript:getPlace('LumberWarehouse');" coords="796,1122,909,1120,909,1187,796,1187" shape="poly">
+    <area alt="03 - Paper Mill" title="03 - Paper Mill" href="javascript:getPlace('PaperMill');" coords="570,765,723,833,674,945,519,881" shape="poly">
+    <area alt="04 - Low Market" title="04 - Low Market" href="javascript:getPlace('LowMarket');" coords="1632,935,66" shape="circle">
+    <area alt="05 - High Market" title="05 - High Market" href="javascript:getPlace('HighMarket');" coords="1823,414,60" shape="circle">
+    <area alt="06 - Ferry Dock" title="06 - Ferry Dock" href="javascript:getPlace('FerryDock');" coords="1810,1185,1839,1193,1823,1260,1886,1281,1903,1219,1933,1227,1916,1292,1946,1305,1933,1346,1746,1290,1757,1243,1795,1249" shape="poly">
+    <area alt="07 - Jak'a'napes" title="07 - Jak'a'napes" href="javascript:getPlace('Jakanapes');" coords="1485,821,1557,861,1546,870,1569,881,1554,911,1533,900,1524,911,1490,889,1479,913,1440,890" shape="poly">
+    <area alt="08 - Hollow Tribunal" title="08 - Hollow Tribunal" href="javascript:getPlace('HollowTribunal');" coords="1640,785,1703,792,1720,813,1703,867,1612,845" shape="poly">
+    <area alt="09 - The Sitting Duck" title="09 - The Sitting Duck" href="javascript:getPlace('TheSittingDuck');" coords="1507,267,1550,278,1537,336,1492,329" shape="poly">
+    <area alt="10 - Darkmoon Lumber HQ" title="10 - Darkmoon Lumber HQ" href="javascript:getPlace('DarkmoonLumberHQ');" coords="1642,265,1651,250,1683,233,1707,237,1707,246,1755,224,1767,254,1720,278,1724,317,1681,330,1671,312,1664,321" shape="poly">
+    <area alt="11 - Church" title="11 - Church" href="javascript:getPlace('Church');" coords="850,678,936,672,939,808,837,803" shape="poly">
+    <area alt="12 - Kreed Manor" title="12 - Kreed Manor" href="javascript:getPlace('KreedManor');" coords="1599,489,1662,441,1737,525,1664,575" shape="poly">
+    <area alt="13 - Vade's Tower" title="13 - Vade's Tower" href="javascript:getPlace('VadesTower');" coords="1996,274,44" shape="circle">
+    <area alt="14 - Roots and Remedies" title="14 - Roots and Remedies" href="javascript:getPlace('RootsAndRemedies');" coords="1395,614,1432,609,1440,652,1404,663" shape="poly">
+    <area alt="15 - The Rouge Lady" title="15 - The Rouge Lady" href="javascript:getPlace('TheRougeLady');" coords="1447,1115,1559,1100,1567,1161,1487,1172,1483,1146,1453,1152" shape="poly">
+    <area alt="16 - The Goose 'n' Gander" title="16 - The Goose 'n' Gander" href="javascript:getPlace('TheGooseNGander');" coords="1416,997,1526,960,1548,1025,1436,1062" shape="poly">
+    <area alt="Sharvaros' Hut" title="Sarvaros' Hut" href="javascript:getPlace('SharvarosHut');" coords="525,315,573,340,558,375,514,353" shape="poly">
+    <area alt="Tenement Building" title="Tenement Building" href="javascript:getPlace('TenementBuilding');" coords="1122,447,1160,440,1177,555,1137,561" shape="poly">
+    <area alt="The Severed Swine (Butcher)" title="The Severed Swine (Butcher)" href="javascript:getPlace('TheSeveredSwine');" coords="1716,1078,1754,1097,1744,1127,1707,1110" shape="poly">
+    <area alt="The Pendent Pantaloons (Tailor)" title="The Pendent Pantaloons (Tailor)" href="javascript:getPlace('ThePendentPantaloons');" coords="1322,911,1345,932,1332,960,1300,946" shape="poly">
+    <area alt="The Hammered Helmet (Armoursmith)" title="The Hammered Helmet (Armoursmith)" href="javascript:getPlace('TheHammeredHelmet');" coords="1052,594,1082,588,1093,616,1058,624" shape="poly">
+    <area alt="The Forged Falchion" title="The Forged Falchion (Weaponsmith)" href="javascript:getPlace('TheForgedFalchion');" coords="1047,530,1077,525,1080,554,1049,562" shape="poly">
+  </map>
+  <h1>Falcon's Hollow</h1>
+  <h2 id="output-title" style="margin:4px;"></h2>
+  <div id="output-description" style="margin:4px;"></div>
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="js/imageMapResizer.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
